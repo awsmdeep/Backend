@@ -1,0 +1,1 @@
+https://stackblitz.com/edit/stackblitz-starters-si9sz6?file=models%2Fhospital_management%2Fhospital.models.js
