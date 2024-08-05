@@ -1,0 +1,17 @@
+
+
+CREATE DATABASE school;
+
+USE school;
+
+CREATE TABLE course(
+cid INT PRIMARY KEY,
+id INT ,
+FOREIGN KEY (id) REFERENCES student(id)
+);
+
+CREATE TABLE student(
+sname VARCHAR(50) UNIQUE,
+id INT PRIMARY KEY
+
+);

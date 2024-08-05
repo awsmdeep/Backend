@@ -1,0 +1,51 @@
+CREATE DATABASE student;
+
+CREATE DATABASE IF NOT EXISTS student;
+
+
+DROP DATABASE IF EXISTS student;
+
+CREATE DATABASE COLLEGE;
+USE COLLEGE;
+
+SHOW DATABASES;
+CREATE DATABASE STUDENT;
+
+USE STUDENT;
+SHOW DATABASES;
+CREATE DATABASE teacher;
+USE teacher;
+
+SHOW DATABASES;
+DROP DATABASE teacher;
+
+DROP DATABASE college;
+
+
+USE student;
+
+CREATE TABLE course(
+cid INT,
+course VARCHAR(50)
+);
+INSERT INTO  course(cid,course)
+VALUES(1,"CHEMISTRY"),(2,"MATHS");
+
+
+INSERT INTO course (cid,course)
+VALUES (3,"COMPUTER"),(4,"ENGLISH");
+
+show databases;
+
+SELECT  * FROM course;
+SELECT course FROM course ;
+
+SELECT cid FROM course;
+
+SHOW TABLES;
+
+
+
+
+
+
