@@ -34,3 +34,6 @@ const asyncHandler = (fn) => async (req, res, next) => {
         });
     }
 }
+
+
+export default asyncHandler;
